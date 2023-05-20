@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-19 19:01:24</sys_created_on>
+        <sys_id>ebe0261f97762110aa1d39000153af00</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_774640_paryatan_domestic.x_774640_paryatan.domestic_user</sys_name>
+        <sys_package display_value="Paryatan" source="x_774640_paryatan">44e2c6df97f22110aa1d39000153afff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Paryatan">44e2c6df97f22110aa1d39000153afff</sys_scope>
+        <sys_security_acl display_value="x_774640_paryatan_domestic">a3e0e21f97762110aa1d39000153affe</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_ebe0261f97762110aa1d39000153af00</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-19 19:01:24</sys_updated_on>
+        <sys_user_role display_value="x_774640_paryatan.domestic_user" name="x_774640_paryatan.domestic_user">d650e6db97762110aa1d39000153af7f</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Paryatan">44e2c6df97f22110aa1d39000153afff</application>
+        <file_path/>
+        <instance_id>f6dd446adbb793808264f70fbf9619db</instance_id>
+        <instance_name>dev69996</instance_name>
+        <name>sys_security_acl_role_ebe0261f97762110aa1d39000153af00</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-05-19 19:01:24</sys_created_on><sys_id>ebe0261f97762110aa1d39000153af00</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_774640_paryatan_domestic.x_774640_paryatan.domestic_user</sys_name><sys_package display_value="Paryatan" source="x_774640_paryatan">44e2c6df97f22110aa1d39000153afff</sys_package><sys_policy/><sys_scope display_value="Paryatan">44e2c6df97f22110aa1d39000153afff</sys_scope><sys_security_acl display_value="x_774640_paryatan_domestic">a3e0e21f97762110aa1d39000153affe</sys_security_acl><sys_update_name>sys_security_acl_role_ebe0261f97762110aa1d39000153af00</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-05-19 19:01:24</sys_updated_on><sys_user_role display_value="x_774640_paryatan.domestic_user" name="x_774640_paryatan.domestic_user">d650e6db97762110aa1d39000153af7f</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>493866040</payload_hash>
+        <record_name>x_774640_paryatan_domestic.x_774640_paryatan.domestic_user</record_name>
+        <reverted_from/>
+        <source>08e20adf97f22110aa1d39000153af01</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-19 19:01:24</sys_created_on>
+        <sys_id>afe0261f97762110aa1d39000153af02</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18835635ecb0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-19 19:01:24</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>e7e0261f5c76211056d3811de79e0e02</update_guid>
+        <update_guid_history>e7e0261f5c76211056d3811de79e0e02:493866040</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_774640_paryatan_domestic.x_774640_paryatan.domestic_user">4691225f97762110aa1d39000153af1f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-19 19:04:19</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>0430d1a35e0c40288318c99bde792899</sys_id>
+        <sys_metadata>ebe0261f97762110aa1d39000153af00</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_774640_paryatan_domestic.x_774640_paryatan.domestic_user</sys_name>
+        <sys_package display_value="Paryatan" source="x_774640_paryatan">44e2c6df97f22110aa1d39000153afff</sys_package>
+        <sys_parent display_value="">a3e0e21f97762110aa1d39000153affe</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Paryatan">44e2c6df97f22110aa1d39000153afff</sys_scope>
+        <sys_scope_delete display_value="">05a513fbc62b4daa80d5dc220cc51359</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_ebe0261f97762110aa1d39000153af00</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_ebe0261f97762110aa1d39000153af00">afe0261f97762110aa1d39000153af02</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-19 19:04:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

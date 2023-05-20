@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="JOURNEY" max_length="40" name="x_774640_paryatan_journey" sizeclass="0" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Contact number" max_length="40" name="contact_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Email" max_length="40" name="email" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="From" max_length="40" name="from" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="encode_utf8=false" default="javascript:gs.getUserID();" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Requester" max_length="32" name="requester" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="requested" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Requested" sequence="0" value="requested"/>
+                <element inactive_on_update="false" label="Confirmed" sequence="1" value="confirmed"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="2" value="cancelled"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="To" max_length="40" name="to" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Tourism Type" max_length="40" name="tourism_type" type="choice">
+            <choice/>
+        </element>
+        <element label="++Add Traveller" max_length="40" name="u_add" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Age" mandatory="true" max_length="40" name="u_age" type="string"/>
+        <element attributes="encode_utf8=false" label="Destination" max_length="32" name="u_destination1" reference="x_774640_paryatan_domestic" type="reference"/>
+        <element attributes="encode_utf8=false" label="Destination" max_length="32" name="u_destination2" reference="x_774640_paryatan_international" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="From" max_length="40" name="u_from" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Gender" max_length="40" name="u_gender" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Male" sequence="0" value="male"/>
+                <element inactive_on_update="false" label="Female" sequence="1" value="female"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="Name" mandatory="true" max_length="32" name="u_name" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Plan Type" mandatory="true" max_length="40" name="u_plan_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Bronze" sequence="0" value="bronze"/>
+                <element inactive_on_update="false" label="Silver" sequence="1" value="silver"/>
+                <element inactive_on_update="false" label="Gold" sequence="2" value="gold"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="To" max_length="40" name="u_to" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Total Cost" max_length="40" name="u_total_cost" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Tourism Type" mandatory="true" max_length="40" name="u_tourism_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Domestic" sequence="0" value="domestic"/>
+                <element inactive_on_update="false" label="Internatinal" sequence="1" value="internatinal"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="requester"/>
+        </index>
+        <index name="index2">
+            <element name="u_destination2"/>
+        </index>
+        <index name="index3">
+            <element name="u_name"/>
+        </index>
+        <index name="index4">
+            <element name="u_destination1"/>
+        </index>
+    </element>
+</database>

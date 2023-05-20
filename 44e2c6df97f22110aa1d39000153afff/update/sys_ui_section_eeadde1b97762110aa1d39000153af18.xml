@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Add Traveller" section_id="eeadde1b97762110aa1d39000153af18" sys_domain="global" table="x_774640_paryatan_journey" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_name</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-05-19 18:47:11</sys_created_on>
+            <sys_id>8fad125b97762110aa1d39000153af70</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Add Traveller" display_value="Add Traveller" name="x_774640_paryatan_journey" sys_domain="global" view="Default view">eeadde1b97762110aa1d39000153af18</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-05-19 18:47:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_age</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-05-19 18:47:11</sys_created_on>
+            <sys_id>03ad125b97762110aa1d39000153af71</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Add Traveller" display_value="Add Traveller" name="x_774640_paryatan_journey" sys_domain="global" view="Default view">eeadde1b97762110aa1d39000153af18</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-05-19 18:47:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_gender</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-05-19 18:47:11</sys_created_on>
+            <sys_id>83ad125b97762110aa1d39000153af71</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Add Traveller" display_value="Add Traveller" name="x_774640_paryatan_journey" sys_domain="global" view="Default view">eeadde1b97762110aa1d39000153af18</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-05-19 18:47:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_add</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-05-19 18:47:11</sys_created_on>
+            <sys_id>07ad125b97762110aa1d39000153af71</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Add Traveller" display_value="Add Traveller" name="x_774640_paryatan_journey" sys_domain="global" view="Default view">eeadde1b97762110aa1d39000153af18</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-05-19 18:47:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Add Traveller</caption>
+            <header>false</header>
+            <name>x_774640_paryatan_journey</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-05-19 18:47:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>eeadde1b97762110aa1d39000153af18</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_774640_paryatan_journey</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Paryatan" source="x_774640_paryatan">44e2c6df97f22110aa1d39000153afff</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Paryatan">44e2c6df97f22110aa1d39000153afff</sys_scope>
+            <sys_update_name>sys_ui_section_eeadde1b97762110aa1d39000153af18</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-05-19 18:47:09</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

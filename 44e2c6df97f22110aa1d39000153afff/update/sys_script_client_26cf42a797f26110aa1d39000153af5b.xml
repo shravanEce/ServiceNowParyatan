@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_tourism_type</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Client script for Tourism Type</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+	if (newValue =="domestic"){
+		g_form.setDisplay("u_destination2",false);
+		g_form.setDisplay("u_destination1",true);
+	}
+	if (newValue =="internatinal"){
+		g_form.setDisplay("u_destination1",false);
+		g_form.setDisplay("u_destination2",true);
+	}
+	
+   //Type appropriate comment here, and begin script below
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-20 12:28:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>26cf42a797f26110aa1d39000153af5b</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Client script for Tourism Type</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Paryatan" source="x_774640_paryatan">44e2c6df97f22110aa1d39000153afff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Paryatan">44e2c6df97f22110aa1d39000153afff</sys_scope>
+        <sys_update_name>sys_script_client_26cf42a797f26110aa1d39000153af5b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-20 12:35:42</sys_updated_on>
+        <table>x_774640_paryatan_journey</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

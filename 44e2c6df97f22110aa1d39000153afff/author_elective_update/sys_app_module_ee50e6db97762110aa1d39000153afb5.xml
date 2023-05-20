@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Domestic">2a50e6db97762110aa1d39000153afb2</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Domestics</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_774640_paryatan_domestic</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_774640_paryatan.domestic_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-19 18:58:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ee50e6db97762110aa1d39000153afb5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Domestics</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Paryatan" source="x_774640_paryatan">44e2c6df97f22110aa1d39000153afff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Paryatan">44e2c6df97f22110aa1d39000153afff</sys_scope>
+        <sys_update_name>sys_app_module_ee50e6db97762110aa1d39000153afb5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-19 18:58:53</sys_updated_on>
+        <timeline_page/>
+        <title>Domestics</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Paryatan">44e2c6df97f22110aa1d39000153afff</application>
+        <file_path/>
+        <instance_id>f6dd446adbb793808264f70fbf9619db</instance_id>
+        <instance_name>dev69996</instance_name>
+        <name>sys_app_module_ee50e6db97762110aa1d39000153afb5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Domestic">2a50e6db97762110aa1d39000153afb2</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Domestics</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_774640_paryatan_domestic</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><roles>x_774640_paryatan.domestic_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-05-19 18:58:53</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>ee50e6db97762110aa1d39000153afb5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Domestics</sys_name><sys_overrides/><sys_package display_value="Paryatan" source="x_774640_paryatan">44e2c6df97f22110aa1d39000153afff</sys_package><sys_policy/><sys_scope display_value="Paryatan">44e2c6df97f22110aa1d39000153afff</sys_scope><sys_update_name>sys_app_module_ee50e6db97762110aa1d39000153afb5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-05-19 18:58:53</sys_updated_on><timeline_page/><title>Domestics</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>919031056</payload_hash>
+        <record_name>Domestics</record_name>
+        <reverted_from/>
+        <source>08e20adf97f22110aa1d39000153af01</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-19 18:58:53</sys_created_on>
+        <sys_id>ee50e6db97762110aa1d39000153afb8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18835610f590000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-19 18:58:53</sys_updated_on>
+        <type>Module</type>
+        <update_guid>2a50e6dbde7621103e850c68016c39b8</update_guid>
+        <update_guid_history>2a50e6dbde7621103e850c68016c39b8:919031056</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Domestics">13b0eedb97762110aa1d39000153afee</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-19 19:00:34</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>6ceef503535c445c9cc7bd5191d89e10</sys_id>
+        <sys_metadata>ee50e6db97762110aa1d39000153afb5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Domestics</sys_name>
+        <sys_package display_value="Paryatan" source="x_774640_paryatan">44e2c6df97f22110aa1d39000153afff</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Paryatan">44e2c6df97f22110aa1d39000153afff</sys_scope>
+        <sys_scope_delete display_value="">05a513fbc62b4daa80d5dc220cc51359</sys_scope_delete>
+        <sys_update_name>sys_app_module_ee50e6db97762110aa1d39000153afb5</sys_update_name>
+        <sys_update_version display_value="sys_app_module_ee50e6db97762110aa1d39000153afb5">ee50e6db97762110aa1d39000153afb8</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-19 19:00:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
